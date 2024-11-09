@@ -23,9 +23,10 @@ async function handleSubmit(event) {
     errorBox.className = "error-login";
     errorBox.innerHTML = "erreur";
     document.querySelector('form').prepend(errorBox);
-  }
+  } else {
   let result = await response.json();
   const token = result.token;
   sessionStorage.setItem("authToken", token);
   window.location.href = 'index.html';
+}
 }
