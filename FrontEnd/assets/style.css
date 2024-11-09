@@ -59,6 +59,8 @@ body {
 	margin:auto;
 	font-family: 'Work Sans' ;
 	font-size: 14px;
+	margin-top: 70px;
+	
 }
 header {
 	display: flex;
@@ -270,4 +272,18 @@ flex-direction: column;
 	display: flex;
 	justify-content: center;
 	padding: 10PX;
+}
+
+.edit {
+	background-color: black;
+	color: white;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center ;
+	width: 100vw;
+	position: absolute;
+	left: 0;
+	top: 0;
+	
 }
