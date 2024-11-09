@@ -263,3 +263,11 @@ flex-direction: column;
 	text-decoration-line: underline;
 	color: #3D3D30;
 }
+
+.error-login {
+	background-color: #b84947;
+	color: white;
+	display: flex;
+	justify-content: center;
+	padding: 10PX;
+}
